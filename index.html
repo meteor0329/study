@@ -12,44 +12,37 @@
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="columns">
-        <div class="column aa bb">
-          First column
+<body style="background-color: #E5E5E5">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </div>
-        <div class="column aa bb">
-          Second column
-        </div>
-        <div class="column aa bb">
-          Third column
-        </div> 
       </div>
+    </nav>
+  <div class="container" style="padding: 20px 0px 0px 0px;">
       <div class="columns">
-        <div class="column is-9 aa bb">
-          is-9
-          <div style="margin: 20px;">
-              <div class="h2" style="display:inline; text-align: left;">
-                  LINE Pay mini拓據點
-                </div>
-                <div class="h6" style="display:inline; text-align: right;">
-                  2019/06/13
-                </div>
+          <div class="column aa bb">
+            First column
           </div>
-          <div style="margin: 20px;">
-              <p class="text-justify" style="word-break:break-all;">
-                  LINE Pay表示，台灣已有604萬人註冊使用LINE Pay，有超過12萬個支付據點，而「LINE Pay一卡通帳戶」電子支付用戶更達145萬位會員。
-                  用戶在LINE Pay mini特約商店交易時，由店員輸入金額，使用手機掃描機台上的QR Code或以NFC感應都能完成結帳，
-                  總共支援「LINE Pay綁定信用卡」、「LINE Pay一卡通帳戶」、「LINE Points 點數」，及「一卡通票卡」等4種交易方案。
-
-                  同時，LINE Pay祭出商戶端與消費端雙向優惠，商家在8月31日前申辦LINE Pay mini，就能享受前6個月免月租費好康；
-                  而消費者則能在2020年2月29日前每筆交易能獲得3% LINE Points回饋，每1點LINE Points等於現金1元，相當於商品打97折。
-
-                  將「LINE Pay」視為頭號敵人的「街口支付」，即日起至7月7日展開爭鮮企業專屬支付優惠，於爭鮮外帶壽司、迴轉壽司、
-                  點爭鮮與定食8餐廳用餐，以「街口支付」結帳享5%現金回饋，每筆回饋上限30元，若使用「街口帳戶」餘額或連結銀行帳戶扣款，
-                  再加送2%街口幣，滿額可獲得各品牌額外好康，例如爭鮮外帶壽司滿300元送芒果布丁、迴轉壽司滿100元送公仔煎餅。
-              </p>
-            </div>
-            <hr>
+          <div class="column aa bb">
+            Second column
+          </div>
+          <div class="column aa bb">
+            Third column
+          </div> 
+        </div>
+        <div class="columns">
+          <div class="column is-9 aa bb">
+            is-9
             <div style="margin: 20px;">
                 <div class="h2" style="display:inline; text-align: left;">
                     LINE Pay mini拓據點
@@ -71,29 +64,45 @@
                     點爭鮮與定食8餐廳用餐，以「街口支付」結帳享5%現金回饋，每筆回饋上限30元，若使用「街口帳戶」餘額或連結銀行帳戶扣款，
                     再加送2%街口幣，滿額可獲得各品牌額外好康，例如爭鮮外帶壽司滿300元送芒果布丁、迴轉壽司滿100元送公仔煎餅。
                 </p>
-              </div>                        
-        </div>
-        
-          <div class="column is-3 aa bb is-narrow" style="height:300px;">
-            is-3
-            <p class="h6">
-              2019年06月14日星期五
-            </p>
-            <p class="h2">
-              08:34AM
-            </p>
-            <button type="button" class="btn btn-light">
-              上班
-            </button>
-            <button type="button" class="btn btn-info">
-                下班
-              </button>            
+              </div>
+                    
           </div>
-      </div>
+          
+            <div class="column is-3 aa bb is-narrow">
+              is-3
+              <p class="h6">
+                2019年06月14日星期五
+              </p>
+              <p class="h2">
+                08:34AM
+              </p>
+              <button type="button" class="btn btn-light">
+                上班
+              </button>
+              <button type="button" class="btn btn-info">
+                  下班
+                </button>            
+            </div>
+        </div>
+        <div class="columns">
+          <div class="column is-9 aa bb">
+              
+          </div>
+            <div class="column is-1 aa bb rounded-left">
+                <div class="fas fa-briefcase fa-lg">
+                </div>
+              </div>
+              <div class="column is-1 aa bb">
+                    <div class="fas fa-file-alt fa-lg">
+                    </div>
+                  </div>
+                  <div class="column is-1 aa bb rounded-right">
+                        <div class="fas fa-calendar-week fa-lg">
+                        </div>
+                  </div>
+        </div>
+  </div>
 
-      <div class="column is-3 is-offset-9 aa bb">
-        is-3
-      </div>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>    
 </body>
